@@ -1,0 +1,154 @@
+
+.project-carousel{
+    background-color: #130f40;
+}
+
+.project-now{
+    background-color: #d7d3ff;
+}
+.carousel{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.project-banner img{
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+
+.thumbnail-slider{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+    
+}
+
+.thumbnail-slider .thumbnail-container{
+	width: 100%;
+	float: left;
+	transition: margin 1s ease;
+}
+
+.thumbnail-slider .item{
+  height: 340px;
+  width: 260px;
+  background-color: #130f40;
+  line-height: 250px;
+  text-align: center;
+  font-size: 50px;
+  color:#ffffff;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+.thumbnail-slider .controls{
+	width: 100%;
+	float: left;
+	padding:15px;
+}
+
+.thumbnail-slider .controls ul{
+	display: block;
+	text-align: center;
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.thumbnail-slider .controls ul li{
+	height: 35px;
+	width: 35px;
+	border:1px solid #c3c3c3;
+	margin:4px;
+	display: inline-block;
+	line-height: 33px;
+	cursor: pointer;
+}
+.thumbnail-slider .controls ul li.active{
+	background-color: green;
+	color:#ffffff;
+
+}
+
+.text {
+    color: #130f40;
+    background: white;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    width: 840px;
+    margin:50px auto;
+    font-family: arial;
+    font-size: 3.5em;
+    font-weight: bold;
+    
+}
+
+.text1 {
+    color: #130f40;
+    background: #d7d3ff;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    width: 840px;
+    margin:50px auto;
+    font-family: arial;
+    font-size: 3.5em;
+    font-weight: bold;
+    
+}
+
+
+
+.img8{
+    height: 280px;
+    background-color: grey;
+    line-height: 250px;
+    text-align: center;
+    width: 100%;
+    color:#ffffff;
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.card-title{
+    height: 290px;
+}
+
+.item h2{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    color: #e1b12c;
+         
+
+}
+.item h3{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    position: absolute;
+    color: #ffffff;
+
+}
+
+
+
+
+
